@@ -27,7 +27,6 @@ def fetch_index():
         print(f"API Status error")
     return data_list
 
-fetch_index()
 
 def detect_index_change():
     previous_data = None
